@@ -16,5 +16,8 @@ self.end_with?("!")
 
   def count_sentences
 self.split(/[.!?]/).reject {|x| x.empty?}.size 
+    # returns the number of sentences in a string
+    # returns zero if there are no sentences in a string
+    # returns the number of sentences in a complex string
   end
 end
